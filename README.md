@@ -18,19 +18,19 @@ a python script to install crypto miners on a lot servers at once
 
 ## Install
 
-```
+```sh
 poetry install
 ```
 
 ## Usage
 to run manitoba
-```
+```sh
 poetry run python manitoba/main.py
 ```
 ### snake-handler
 a snake handler is just a way to access servers directly using ssh, the file is simply a JSON Array
 
-```json
+```
 [
   {
     "hostname": "127.0.0.1",
