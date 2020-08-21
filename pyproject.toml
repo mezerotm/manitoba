@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "manitoba"
+version = "0.1.0"
+description = ""
+authors = ["Carlos Rincon <mezerotm@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+python-digitalocean = "^1.15.0"
+PyInquirer = "^1.0.3"
+paramiko = "^2.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
