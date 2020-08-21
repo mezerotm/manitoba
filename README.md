@@ -23,9 +23,28 @@ poetry install
 ```
 
 ## Usage
-
+to run manitoba
 ```
 poetry run python manitoba/main.py
+```
+### snake-handler
+a snake handler is just a way to access servers directly using ssh, the file is simply a JSON Array
+
+```json
+[
+  {
+    "hostname": "127.0.0.1",
+    "username": "admin"
+    "password": "admin",
+    "key_filename: ""
+  },
+  {
+    "hostname": "127.0.0.1",
+    "username": ""
+    "password": "",
+    "key_filename: "/home/user/.ssh/rsa_pub"
+  }
+]
 ```
 
 ## Maintainers
